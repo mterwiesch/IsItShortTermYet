@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    var enddate = new Date("April 24, 2016 00:00:00");
+    var enddate = new Date("April 24, 2017 00:00:00");
         var now = new Date();
         var timetill = enddate.getTime() - now.getTime();/
         
