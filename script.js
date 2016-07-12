@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    var enddate = new Date(" July 11, 2016 21:25:00");
+    var enddate = new Date("April 23, 2017 23:59:59");
         var now = new Date();
         var timetill = enddate.getTime() - now.getTime();
         
@@ -32,4 +32,4 @@ function refreshAt(hours, minutes, seconds) {
     setTimeout(function() { window.location.reload(true); }, timeout);
 }
 
-refreshAt(21,25,00); 
+refreshAt(23,59,59); 
